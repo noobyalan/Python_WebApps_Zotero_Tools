@@ -1,0 +1,11 @@
+zotero:
+  user_id: "your_user_id"
+  api_key: "your_api_key"
+  summary_tag: "ai-summary"
+
+openai:
+  api_key: "sk-xxx"
+  model: "gpt-4o"
+  prompt: |
+    你是一个学术研究专家，擅长用简洁的语言总结学术论文内容。请为用户生成论文摘要，用简洁语言总结研究主题、方法和主要发现。要求输出采用HTML格式，用<p>标签分段，关键术语用<strong>标注，保持学术严谨性。
+  base_url: "https://api.openai.com/v1"  # 可选 
